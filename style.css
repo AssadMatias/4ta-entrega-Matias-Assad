@@ -1,0 +1,588 @@
+*{
+ font-family: 'Roboto Mono', monospace;
+ text-decoration: none;
+ padding: auto;
+ margin: 0;
+    
+ 
+
+ 
+}
+.header .logo{
+    height: 150px;
+    width: auto;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.header{
+    background-color: aquamarine;
+    padding: 0;
+    height: 150px;
+    position: sticky;
+    top: 0;
+    
+
+
+}
+.items ul  {
+    display: inline;
+    display: flex;
+   list-style: none;
+   margin: 20px auto;
+   justify-content: center;
+    
+    
+}
+.items ul li{
+    margin: -20px;
+    color: black;
+    margin-left: 200px;
+    margin-top: -70px;
+    padding: 2px;
+    
+
+    
+}
+.items ul li a{
+padding: 10px;
+border-radius: 10px 10px;
+border: solid;
+border-color: blueviolet;
+color: black;
+
+
+
+
+
+}
+.items ul li a:hover{
+    background-color: blueviolet ;
+    color: white;
+}
+.grid_container{
+    display: grid;
+
+
+
+}
+
+
+
+
+.cuerpo {
+    background-color: skyblue;
+    
+}
+.cuerpo .texto{
+    display: flex;
+    margin: 100px auto;
+    font-size: 19px;
+    
+    
+
+}
+.cuerpo .titulo .texto{
+    margin: 300px;
+    padding: 10px;
+    
+    
+}
+.titulo{
+    display: block;
+    
+    background-color: rgb(96 95 215);
+    justify-self: start;
+
+}
+/* grids */
+/* .grid_area{
+    display: grid;
+    grid-template-areas: 
+    "nav header header"   --->/no me quedo claro como usar esta funcion de grids/
+    "nav header header  "
+    "info info publi"
+    "info info publi "
+    "footer footer footer";
+    grid-template-rows: 50px 50px 100px 100px 50px ;
+    gap: 10px;
+} */
+
+.grid_imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    
+}
+.grid_imagenes img {
+    width: 100%;
+}
+.valorant_image{
+    height: 379.38px;
+
+}
+.csgo_image{
+    height: 379.38px;
+}
+.lol_image{
+    height: 379.38px;
+}
+.rocket_image{
+    height: 379.38px;
+}
+.instagram_logo{
+    grid-column: 1/1;
+    grid-row: 2/4;
+    justify-self: center;
+    height: 50PX;
+    width: auto;
+   
+} 
+.facebook_logo{
+    grid-column: 2/2;
+    grid-row: 2/4;
+    height: 50px;
+    width: auto;
+    justify-self: center;
+}
+.twitter_logo{
+    grid-column: 3/3;
+    grid-row: 2/4;
+    height: 50px;
+    width: auto;
+    justify-self: center;
+}      
+
+.pie{
+    margin: 200px auto;
+}
+.pie .tituloRedes{
+    display: inline;
+    font-size: 36px;
+    margin: 20px auto;
+}
+.redes .redesSociales ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 2fr);
+
+    
+    
+
+}
+.redes .redesSociales ul li{
+    margin:  40px auto;
+    color: black;
+}
+.redes .redesSociales ul li a{
+padding: 10px;
+border-radius: 10px 10px;
+border: solid;
+border-color: blueviolet;
+color: black;
+
+}
+.redes .redesSociales ul li a:hover{
+    background-color: blueviolet ;
+    color: white;
+
+}
+.derechos{
+    margin: 50px auto;
+    display: inline;
+    display: flex;
+}
+.tituloRedes{
+    background-color: rgb(96 95 215);
+    padding: 10px;
+}
+
+/* FORMULARIO -------------------------------------*/
+#preformularioMain{
+    display: flex;
+}
+.body_formulario_titulo{
+    background-color: blueviolet;
+    display: block;
+    
+}
+#preformularioMain .parrafo{
+    margin-top: 10px    ;
+}
+.body_formulario{
+   background-color: skyblue;
+
+}
+.body_formulario .body_formulario_titulo{
+    margin: 40px;
+}
+.body_formulario .body_formulario_titulo_datos{
+    margin: 40px;
+    display: block;
+    width: 50%  ;
+    
+
+}
+.cuadro_formulario{
+    margin-left: 100px;
+    display: inline-block;
+}
+.imagen_formulario{
+    height: 300px;
+    width: auto;     
+    
+    
+    
+    
+} 
+.boton_enviar:hover{
+    background-color: blueviolet ;
+    color: white;
+
+}.boton_resetear:hover{
+    background-color: blueviolet ;
+    color: white;
+}
+.forlulario_nombre{
+    display: block;
+}
+.formulario_estadocivil{
+    display: block;
+}
+.formulario_mail{
+    display: block;
+}
+.formulario_comentario{
+    display: block;
+}
+.ingresar_nombre{
+    display: block;
+}
+.ingresar_nombre:hover{
+    background-color: blueviolet ;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.ingresar_estadocivil:hover{
+    background-color: blueviolet ;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.ingresar_mail:hover{
+    background-color: blueviolet ;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+/* Clips------------------------------------------ */
+#cuerpo_videos{
+    background-image: url(.//img/fondo\ formulario.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.titulo1 {
+ padding: 10px;
+ color: white;
+ background-color: rgb(88, 50, 228);
+
+    
+}
+.titulo2{
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 50, 228);
+
+}
+.titulo3{
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 50, 228);
+
+}
+.titulo4{
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 50, 228);
+}
+#videos .titulo1{
+   display: flex;
+}
+#videos .titulo2{
+    display: flex;
+}
+#videos{
+    display: inline-flex ;
+    
+}
+.pie_videos{
+    margin: 200px auto;
+}
+.pie_videos .tituloRedes_videos{
+    display: inline;
+    font-size: 36px;
+    margin: 20px auto;
+    color: white;
+}
+.redes_videos .redesSociales_videos ul{
+    display: inline;
+    list-style: none;
+    display: flex;
+    
+}
+.redes_videos .redesSociales_videos ul li{
+    margin:  40px auto;
+    color: black;
+}
+.redes_videos .redesSociales_videos ul li a{
+padding: 10px;
+border-radius: 10px 10px;
+border: solid;
+border-color: blueviolet;
+color: white;
+
+}
+.redes_videos .redesSociales_videos ul li a:hover{
+    background-color: blueviolet ;
+    color: white;
+
+}
+.derechos_videos{
+    margin: 150px auto;
+    display: inline;
+    display: flex;
+    color: white;
+}
+.copy_videos{
+    margin: 150px auto;
+    color: white;
+}
+/* Tablas--------------------------------------- */
+#cuerpo_tablas{
+    background-image: url(.//img/fondo\ formulario.jpg);
+    background-size: auto;
+    background-repeat: none;
+}
+.titulo_tablas{
+    color: white;
+    background-color: rgb(88, 50, 228);
+    display: inline-block;
+    border-radius: 5px 5px ;
+    border: none;
+    padding: 3px;
+    
+}
+.tabla_main{
+    display: inline-flex;
+    margin-top: -20px;
+
+}
+
+.titulo_valorant{
+    color: white;
+    background-color: rgb(88, 50, 228);
+    display: inline-block;
+   
+    margin-top: 2%;
+    font-size: 30px;
+    border-radius: 5px 5px ;
+    border: none;
+    padding: 3px;
+
+}
+.tabla{
+    color: white;
+    background-color: rgb(88, 50, 228);
+    margin-top: -10px;
+}
+.td1{
+    color: white;
+    background-color: rgb(88, 50, 228);
+    
+}
+.td2{
+    color: white;
+    background-color: rgb(88, 50, 228);
+}
+.td3{
+    color: white;
+    background-color: rgb(88, 50, 228);
+
+}
+.td4{
+    color: white;
+    background-color: rgb(88, 50, 228);
+}
+.td1_1{
+    color: black;
+    background-color: skyblue;
+    
+}
+.td2_2{
+    color: black;
+    background-color: skyblue;
+}
+.td3_3{
+    color: black;
+    background-color: skyblue;
+}
+.td4_4{
+    color: black;
+    background-color: skyblue;
+}
+.titulo_cs{
+    color: white;
+    background-color: rgb(88, 50, 228);
+    display: inline-block;
+   
+    margin-top: 2%;
+    font-size: 30px;
+    border-radius: 5px 5px ;
+    border: none;
+    padding: 3px;
+    
+    
+    
+}
+.imagen_cs_tabla{
+    display: block ;
+    margin-top: 10px;
+}
+.imagen_valorant{
+    display: block ;
+    padding: 10px auto;
+    margin-top: 30px;
+}
+/* JUEGOS PARTICIPANTES--------------------- */
+.cuerpo_juegos{
+    background-color: skyblue;
+}
+.valorant_juegos_titulo{
+    background-color: slateblue;
+    color: white
+ 
+}
+.valorant_juegos{
+    display: flex;
+    
+}
+.csgo_juegos_titulo{
+    background-color: slateblue;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    
+
+}       
+.csgo_juegos{
+    display: flex;
+    
+}
+.lol_juegos_titulo{
+    background-color: slateblue;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+.lol_juegos{
+    display: flex   ;
+    
+}
+
+/* INDEX MOBILE */
+@media screen and (max-width:768px) {
+    .cuerpo{
+        display: flex;
+    }
+    
+    
+    .header .logo{
+        height: 150px;
+        width: auto;
+
+        margin-bottom: 15px;
+    
+    }
+    .header{
+            background-color: aquamarine;
+            margin: 0%;
+            height: 150px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+    }
+    .items{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .items ul  {
+        display: inline;
+        display: flex;
+       list-style: none;
+       margin-top: -40px;
+       
+       
+       justify-content: center;
+    }
+    
+        
+    
+    .items ul li{
+        margin: -20px;
+        color: black;
+        margin-left: 200px;
+        margin-top: -60px;
+        
+        display: flex;
+        justify-self: center    ;   
+        
+        
+        
+        
+        
+    
+        
+    }
+    .items ul li a{
+    padding: 10px;
+    border-radius: 10px 10px;
+    border: solid;
+    border-color: blueviolet;
+    color: black;
+    }
+
+    .titulo{
+        font-size: 20px ;
+        display: flex;
+
+    }
+    .grid_imagenes{
+        display: grid;
+        grid-template-columns: repeat(2, 1/2fr);
+        gap: 5px;
+    }
+    .valorant_image{
+        height: auto;
+        width: 252px;
+    }
+    .csgo_image{
+        height: auto;
+        width: 252px;
+    }
+    .lol_image{
+        height: auto;
+        width: 252px;
+    }
+    .rocket_image{
+        height: auto;
+        width: 252px ;
+    }
+}    
+
+    
+
+
+    
+    
+       
+
